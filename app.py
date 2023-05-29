@@ -14,7 +14,7 @@ from langchain.chains import LLMChain, SequentialChain
 from langchain.memory import ConversationBufferMemory
 from langchain.utilities import WikipediaAPIWrapper 
 
-os.environ['OPENAI_API_KEY'] = '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'
+os.environ['OPENAI_API_KEY'] = 'your api_key'
 
 # Streamlet App framework
 st.title('🦜🔗 YouTube Script Assistant') # setting teh title 
